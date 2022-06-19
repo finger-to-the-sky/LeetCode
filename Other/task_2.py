@@ -5,11 +5,11 @@ class Solution:
         self.ls_1 = ls_1
         self.ls_2 = ls_2
 
+
     @staticmethod
     def MedianFind(list_1, list_2):
         result = sorted(list_1 + list_2)
         l = len(result)
-        print(result)
 
         if len(result) % 2 == 0:
 
