@@ -10,7 +10,7 @@ class Solution:
     def MedianFind(list_1, list_2):
         result = sorted(list_1 + list_2)
         l = len(result)
-
+        print('Обрабатываю ваши массивы...\nМедиана ваших массивов: ')
         if len(result) % 2 == 0:
 
             return result[l // 2]
@@ -24,7 +24,7 @@ class Solution:
     def Difference(self):
         set_1 = set(self.ls_1)
         set_2 = set(self.ls_2)
-        print('Нахожу уникальные элементы из ваших списков...')
+        print('Нахожу уникальные элементы из ваших массивов...')
         return list(set_1 ^ set_2)
 
 list_1 = [1, 2, 5, 7, 8]
