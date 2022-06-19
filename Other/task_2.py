@@ -25,7 +25,7 @@ class Solution:
         set_1 = set(self.ls_1)
         set_2 = set(self.ls_2)
         print('Нахожу уникальные элементы из ваших списков...')
-        return set_1 ^ set_2
+        return list(set_1 ^ set_2)
 
 list_1 = [1, 2, 5, 7, 8]
 list_2 = [1, 4, 5]
